@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/medicamentos"
+    tools:context=".medicamentos.Alarme.MainActivityAlarm">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="97dp"
+        android:layout_above="@id/button_timepicker"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="184dp"
+        android:text=" Alarme definido para as:     "
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button_timepicker"
+        android:layout_width="241dp"
+        android:layout_height="61dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Definir Alarme"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_timepicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Cancelar Alarme"
+        android:textSize="24sp" />
+
+</RelativeLayout>

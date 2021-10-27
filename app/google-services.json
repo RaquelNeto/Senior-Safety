@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "978491766254",
+    "firebase_url": "https://seniorsafety-7249b.firebaseio.com",
+    "project_id": "seniorsafety-7249b",
+    "storage_bucket": "seniorsafety-7249b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978491766254:android:d50ebb4bed5de42a430aff",
+        "android_client_info": {
+          "package_name": "pt.ipp.estg.seniorsafety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978491766254-gouicpld628vioji5bp9p7a44d57hlmm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pt.ipp.estg.seniorsafety",
+            "certificate_hash": "6197ef95261ee88cc7ad0eaa7615e8b2007fab66"
+          }
+        },
+        {
+          "client_id": "978491766254-6bqpj69kd6uc9ikaskuhdcmi5o97c61c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbFvfKuBKPt0rvYfMMHzeiAUeQf5IOmPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978491766254-6bqpj69kd6uc9ikaskuhdcmi5o97c61c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

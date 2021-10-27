@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuLapsosMemoria">
+
+    <TextView
+        android:id="@+id/textViewMenuPrincipal"
+        android:layout_width="351dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="10dp"
+        android:text="Lapsos de Memória"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="38sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewLapsos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewLapsos"
+        android:layout_width="275dp"
+        android:layout_height="205dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonJogoForca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMenuPrincipal"
+        app:srcCompat="@drawable/lapsos" />
+
+    <Button
+        android:id="@+id/buttonJogoForca"
+        android:layout_width="247dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Jogo da Forca"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonJogoMatematica"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLapsos" />
+
+    <Button
+        android:id="@+id/buttonJogoMatematica"
+        android:layout_width="249dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Jogo Matemática"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRegressarMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonJogoForca" />
+
+    <Button
+        android:id="@+id/buttonRegressarMenu"
+        android:layout_width="178dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="110dp"
+        android:text="Menu Principal"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonJogoMatematica" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

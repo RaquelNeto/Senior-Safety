@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/medicamentos"
+    android:orientation="vertical"
+    tools:context=".medicamentos.PaginaInicial_Medicamentos">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <TextView
+        android:id="@+id/textViewPIM"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:text="Medicamentos"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="48sp" />
+
+
+    <Button
+        android:id="@+id/buttonPIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Meus Planos de Tomas"
+        android:textColor="@color/fui_bgGoogle"
+        android:textSize="28sp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dip"
+        android:layout_marginRight="4dip"
+        android:backgroundTint="@color/colorAccent"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:src="@drawable/ic_add_circle_black_24dp"
+        app:backgroundTint="@android:color/background_light"
+        tools:visibility="visible" />
+
+
+</LinearLayout>
